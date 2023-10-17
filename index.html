@@ -1,0 +1,287 @@
+<!DOCTYPE html> 
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <title>ME</title>
+    <link rel="stylesheet" href="me.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/37e1adbf46.js" crossorigin="anonymous"></script>
+</head>
+    
+<body>
+
+    <!-- Header starts here -->
+    <div id="header" data-aos="fade-down" data-aos="flip-right">
+        <div class="container" data-aos="fade-down" data-aos="flip-right">
+            <nav>
+                <img src="img/nandin.jpg" class="logo" data-aos="fade-down" data-aos="flip-right">
+                <ul id="sidemenu" data-aos="fade-down" data-aos="flip-right">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a><div data-aos="flip-right"></div></li>
+                    <li><a href="#hobby">Hobby</a><div data-aos="flip-right"></div></li>
+                    <li><a href="#portfolio">Portfolio</a><div data-aos="flip-right"></div></li>
+                    <li><a href="#facts">Facts</a><div data-aos="flip-right"></div></li>
+                    <li><a href="#candy">Candy crush</a><div data-aos="flip-right"></div></li>
+                    <li><a href="#contact">Contact</a><div data-aos="flip-right"></div></li>
+                    <li><i class="fa-solid fa-moon fa-beat"></i><div data-aos="flip-right"></div></li>
+                    <i class="fas fa-times" onclick="closemenu()"><div data-aos="flip-right"></div></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"><div data-aos="flip-right"></div></i>
+            </nav>
+
+            <div class="header-text" data-aos="fade-down" data-aos="flip-right">
+                <p>Front Desighner</p>
+                <h1>Hi, I'm <span>Nandin</span><br>Batbold from Mongilia</h1><div data-aos="flip-right"></div>
+            </div>
+        </div><div data-aos="flip-right"></div>
+    </div><div data-aos="flip-right"></div>
+
+            <!-- About Me Starts-->
+
+<div id="about"><div data-aos="flip-right"></div>
+    <div class="container"><div data-aos="flip-right"></div>
+        <div class="row"><div data-aos="flip-right"></div>
+            <div class="about-col-1"><div data-aos="flip-right"></div>
+                <img src="img/me100.jpg"><div data-aos="flip-right"></div>
+            </div>        <div data-aos="flip-right"></div>
+            <div class="about-col-2"><div data-aos="flip-right"></div>
+                <h1 class="sub-title">About Me</h1><div data-aos="flip-right"></div>
+                <p>Hello!  My name is Nandin.  I'm 11 years old .  I live BAYNGOL neighbohood && going the school which's name is Naran. My hobby is reading && play chess && swimming && rolling. <i class="fa-solid fa-face-kiss-wink-heart"></i><i class="fa-solid fa-face-kiss-wink-heart"></i><div data-aos="flip-right"></div>  So if you be interested about me read this Protfile . Good luck<i class="fa-solid fa-clover fa-flip"></i></p>
+
+                <div class="tab-titles"><div data-aos="flip-right"></div>
+                    <p class="tab-links active-link" onclick="opentab('skills')" data-aos="fade-down" data-aos="flip-right">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')" data-aos="fade-down" data-aos="flip-right">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')" data-aos="fade-down" data-aos="flip-right">Education</p>
+
+
+
+
+
+
+                    
+                </div><div data-aos="flip-right"></div>
+
+                <div class="tab-contents active-tab" id="skills" data-aos="fade-down" data-aos="flip-right">
+                    <ul data-aos="fade-down" data-aos="flip-right">
+                        <li data-aos="fade-down" data-aos="flip-right"><span>Javascript</span><br>Still learning !!! Score 65%</li>
+                        <li data-aos="fade-down" data-aos="flip-right"><span>Style.css</span><br>Very good at that && Score -> 85%</li>
+                        <li data-aos="fade-down" data-aos="flip-right"><span>HTML</span><br>Not so much but good too  == Score (75%)</li>
+                    </ul>
+                </div>
+ 
+                <div class="tab-contents" id="experience" data-aos="fade-down" data-aos="flip-right">
+                    <ul data-aos="fade-down" data-aos="flip-right">
+                        <li data-aos="fade-down" data-aos="flip-right"><span>My Protfile</span><br>Desighn it</li>
+                        <li data-aos="fade-down" data-aos="flip-right"><span>Color changes</span><br>Most of them uses Javascript</li>
+                        <li data-aos="fade-down" data-aos="flip-right"><span>The News.mn</span><br>Simulate the most big project. The News.mn</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education" data-aos="fade-down" data-aos="flip-right">
+                    <ul data-aos="fade-down" data-aos="flip-right">
+                        <li data-aos="fade-down" data-aos="flip-right"><span>Learning in English</span><br>Usually</li>
+                        <li data-aos="fade-down" data-aos="flip-right"><span>Coding</span><br>Every Day</li>
+                        <li data-aos="fade-down" data-aos="flip-right"><span>Sport && Read </span><br>Usually doing</li>
+                    </ul>
+                </div>
+
+                
+                        <!-- CHATGPT -->
+                        
+                        <div class="skill2">
+                            <label>JavaScript:</label>
+                            <div class="progress-container">
+                                <div class="progress-bar js"></div>
+                            </div>
+                            <span class="percentage" id="jsPercentage">65%</span>
+                        </div>
+
+                        <div class="skill1">
+                            <label>CSS:</label>
+                            <div class="progress-container">
+                                <div class="progress-bar css"></div>
+                            </div>
+                            <span class="percentage" id="cssPercentage">85%</span>
+                        </div>
+
+                        <div class="skill">
+                            <label>HTML:</label>
+                            <div class="progress-container">
+                                <div class="progress-bar html"></div>
+                            </div>
+                            <span class="percentage" id="htmlPercentage">75%</span>
+                        </div>
+
+
+
+                        <!-- CHATGPT -->
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- Hobby Starts -->
+<div id="hobby" data-aos="fade-down" data-aos="flip-right">
+    <div class="container" data-aos="fade-down" data-aos="flip-right">
+        <h1 class="sub-title" data-aos="fade-down" data-aos="flip-right">Hobby</h1>
+        <div class="services-list" data-aos="fade-down" data-aos="flip-right">
+            <div class="hobby">
+                <i class="fa-solid fa-turn-down fa-shake"></i>
+                <h2>MY HOBBY</h2>
+                <p>I love to swim <i class="fa-solid fa-water"></i> and code <i class="fa-solid fa-laptop-code"></i>. It's my faviorite hobby.</p>
+          
+            </div>
+
+            <div class="hobby">
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2 data-aos="fade-down" data-aos="flip-right">Future job</h2>
+                <p data-aos="fade-down" data-aos="flip-right">I decide becode coder in future. <i class="fa-solid fa-heart"></i> So I wish this Protfile just works fine.</p>
+         
+            </div>
+
+            <div class="hobby">
+                <i class="fa-brands fa-app-store" data-aos="fade-down" data-aos="flip-right"></i>
+                <h2 data-aos="fade-down" data-aos="flip-right">App Desighner</h2>
+                <p data-aos="fade-down" data-aos="flip-right">I think build app is like websites!
+                    So just think I can make it!
+                </p>
+               
+            </div>
+
+        </div>
+    </div>
+</div>
+            <!-- Portfolio -->
+<div id="portfolio" data-aos="fade-down" data-aos="flip-right">
+    <div class="container" data-aos="fade-down" data-aos="flip-right">
+        <h1 class="sub-title" data-aos="fade-down" data-aos="flip-right">My Work</h1>
+        <div class="work-list" data-aos="fade-down" data-aos="flip-right">
+            <div class="work" data-aos="fade-down" data-aos="flip-right">
+                <img src="img/news.png" data-aos="fade-down" data-aos="flip-right">
+                <div class="layer" data-aos="fade-down" data-aos="flip-right">
+                    <h3 data-aos="fade-down" data-aos="flip-right">The News.mn</h3>
+                    <p data-aos="fade-down" data-aos="flip-right">This website will contain modern news! <i class="fa-solid fa-newspaper fa-shake"></i></p>
+                </div>
+            </div>
+            <div class="work " data-aos="fade-down" data-aos="flip-right">
+                <img src="img/color1.png" data-aos="fade-down" data-aos="flip-right">
+                <div class="layer" data-aos="fade-down" data-aos="flip-right">
+                    <h3 data-aos="fade-down" data-aos="flip-right">The Color Changes</h3>
+                    <p data-aos="fade-down" data-aos="flip-right">If you click on reset you will get random colors <i class="fa-solid fa-palette fa-spin fa-spin-reverse"></i></p>
+                    <a href="https://oldyoungcoders.github.io/Cool/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" data-aos="fade-down" data-aos="flip-right">
+                <img src="img/counter.png" data-aos="fade-down" data-aos="flip-right">
+                <div class="layer" data-aos="fade-down" data-aos="flip-right">
+                    <h3 data-aos="fade-down" data-aos="flip-right">Counter</h3>
+                    <p data-aos="fade-down" data-aos="flip-right">It's 100% Javascript. It's <i class="fa-solid fa-infinity fa-beat"></i></p>
+                    <a href="https://oldyoungcoders.github.io/counter/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://oldyoungcoders.github.io/my_projects/" class="btn">See more</a>
+    </div>
+</div>
+<div id="facts">
+<h1 class="h1">Facts</h1>
+            <!-- FaCT -->
+<div class="facts">
+    <div class="container">
+        <div class="row">
+            <div class="fact-col">
+                <h1 class="a">Projects</h1>
+
+                <p>I have like 15 projects if I count them.</p><i class="fa-solid fa-list-check fa-bounce"></i>
+            </div>
+            <div class="fact-col">
+                <h1 class="a">Hours Of Support</h1>
+                <p> I spent 1 month to code. I think you understand that is lot of hour.</p><i class="fa-solid fa-clock fa-beat"></i>
+            </div>
+            <div class="fact-col">
+                <h1 class="a">Lines Of Code</h1>
+
+                <p>I think it almost reach 1,000,000</p><i class="fa-solid fa-magnet fa-shake"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- To do list -->
+
+<div id="candy">
+    <h1 class="h1">Candy Crush</h1>
+    <div class="box">
+        <i class="fa-solid fa-tent-arrow-down-to-line">
+            <a href="https://oldyoungcoders.github.io/candy/ ">The candy crush</a>
+        </i>
+    </div>
+</div>
+
+            <!-- Contact -->
+<div id="contact" data-aos="fade-down" data-aos="flip-right">
+    <div class="container" data-aos="fade-down" data-aos="flip-right">
+        <div class="row" data-aos="fade-down" data-aos="flip-right">
+            <div class="contact-left" data-aos="fade-down" data-aos="flip-right">
+                <h1 class="sub-title" data-aos="fade-down" data-aos="flip-right">Contact me</h1>
+                <p><i class="fa-regular fa-paper-plane" data-aos="fade-down" data-aos="flip-right"></i>batboldcloud@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone" data-aos="fade-down" data-aos="flip-right"></i>95958759</p>
+                <div class="social-icons" data-aos="fade-down" data-aos="flip-right">
+                    <a href="https://facebook.com/" data-aos="fade-down" data-aos="flip-right"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" data-aos="fade-down" data-aos="flip-right"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/" data-aos="fade-down" data-aos="flip-right"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" data-aos="fade-down" data-aos="flip-right"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/PP.pptx" download class="btn btn2">Downlad Cv (and advice) </a>
+            </div>
+            <div class="contact-right" data-aos="fade-down" data-aos="flip-right">
+                <form name='submit-to-google-sheet' data-aos="fade-down" data-aos="flip-right">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id='msg' data-aos="fade-down" data-aos="flip-right"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="copyright" data-aos="fade-down" data-aos="flip-right">
+        <p>Made by Nandin. Read this website <i class="fa-solid fa-heart fa-beat"></i> if you want to know about me!</p>
+    </div>
+</div>
+
+
+
+                <!-- <Script></Script> -->
+
+
+
+
+
+<script src="me.js" defer></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxt0UNab_upkIHMqWvgtvPwXxwStyMH6St_Lj7ME3pNQvaab6XsxBbD02QDkKrp2-8b/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
+
